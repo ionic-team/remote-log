@@ -1,0 +1,30 @@
+{
+  "name": "@ionic/remote-log",
+  "version": "0.0.1",
+  "description": "Add remote logging to your web application",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts && uglifyjs --compress --mangle -o index.js -- index.js",
+    "build-dev": "tsc index.ts"
+  },
+  "keywords": [
+    "vscode",
+    "ionic",
+    "extension",
+    "logging"
+  ],
+  "author": "Ionic Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "typescript": "4.9.5",
+    "uglify-js": "3.17.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/remote-log.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/remote-log/issues"
+  }
+}
