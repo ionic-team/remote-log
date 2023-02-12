@@ -47,12 +47,12 @@ function getDeviceIdentifier(): string {
     if (_deviceIdentifier) {
         return _deviceIdentifier;
     }
-    const tmp = localStorage.IonicLoggerDeviceId;
+    const tmp = localStorage['IonicLoggerDeviceId'];
     let id: number = parseInt(tmp);
     if (tmp == null || isNaN(id)) {
         // Create a random device identifier
         id = Math.floor(Math.random() * 999999999);
-        localStorage.IonicLoggerDeviceId = id;
+        localStorage['IonicLoggerDeviceId'] = id;
     }
     _deviceIdentifier = id.toString();
     return _deviceIdentifier;

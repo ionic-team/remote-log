@@ -1,6 +1,6 @@
 {
   "name": "@ionic/remote-log",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add remote logging to your web application",
   "main": "index.js",
   "scripts": {
