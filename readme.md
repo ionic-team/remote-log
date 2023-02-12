@@ -3,7 +3,7 @@
 Call `initLogger` to override `console.log`, `console.warn`, `console.error` and `console.info` functions which will be routed to the given remote server.
 
 ```shell
-npm @ionic/remote-log
+npm install @ionic/remote-log
 ```
 
 ```typescript
